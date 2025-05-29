@@ -1,0 +1,10 @@
+spring:
+  elasticsearch:
+    uris: http://47.93.27.118:9200
+
+
+
+logging:
+  level:
+    org.springframework.data.elasticsearch: DEBUG
+    co.elastic.clients: DEBUG
